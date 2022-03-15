@@ -4,7 +4,7 @@
 
 
 
-<img src="https://te.legra.ph/file/72b8500b85d0c4798c6d5.jpg" width="300" align="right">
+
 
 
 
