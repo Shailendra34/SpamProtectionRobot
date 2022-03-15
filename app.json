@@ -1,0 +1,33 @@
+{
+    "name": "𝐒𝐩𝐚𝐦𝐛𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐨𝐧 𝐫𝐨𝐛𝐨𝐭",
+    "description": "ᴀɴᴛɪ sᴘᴀᴍ/ɴsғᴡ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏᴛʜᴏɴ ᴡɪᴛʜ ᴘʏʀᴏɢʀᴀᴍ...",
+    "repository": "https://github.com/Shailendra34/SpamProtectionRobot",
+    "logo": "https://te.legra.ph/file/72b8500b85d0c4798c6d5.jpg",
+    "keywords": [
+    "python3",
+    "telegram"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Obtain a Telegram bot oken by contacting @BotFather",
+            "required": true
+        },
+        "SUDOERS": {
+            "description": "Sudo user's ids, Ex:- 123456654 654654311 1546523456",
+            "required": true
+        },
+        "NSFW_LOG_CHANNEL": {
+            "description": "ID of the channel where NSFW logs should be forwarded. Ex: '-123456'",
+            "required": true
+        },
+        "SPAM_LOG_CHANNEL": {
+            "description": "ID of the channel where SPAM logs should be forwarded. Ex: '-123456'",
+            "required": true
+        },
+        "ARQ_API_KEY": {
+            "description": "Get this from @ARQRobot.",
+            "required": true
+        }
+    }
+}
